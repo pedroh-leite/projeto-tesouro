@@ -32,7 +32,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
     font-size: 2em;
     font-weight: bold;
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-padrao);
     text-align: center;
     padding-bottom: 30px;
     padding-top: 20px;
@@ -64,7 +64,7 @@ main{
 }
 
 main img{
-    width: 70%;
+    width: 65%;
     display: block;
     margin: auto;
 }
@@ -102,13 +102,17 @@ section.image{
 
 table{
    border-collapse: collapse;
-   width: 500px; 
+   width: 400px; 
    height: 200px;
    margin: auto;
    margin-bottom: 30px;
    margin-top: 30px;
    background-color: rgba(0, 0, 0, 0.767);
    box-shadow: 1px 1px 2px black;
+}
+
+div#container{
+    overflow-x: auto;
 }
 
 thead{
